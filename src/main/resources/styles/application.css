@@ -1,0 +1,208 @@
+//splashing screen
+.companyLabel{
+    -fx-text-fill: #d8b131
+}
+
+.rootPane{
+	-fx-background-image: url("/imgs/hospital-background.png");
+	-fx-background-position: center center;
+}
+
+.appNameLabel{
+    -fx-font-size: 16pt;
+    -fx-text-fill: #1c5130;
+}
+
+.appNameProcessLabel{
+    -fx-font-family: "Sans Serif";
+    -fx-font-size: 13pt;
+}
+
+//insertInfoPage
+.mainTitleLabelInsert{
+    -fx-font-size: 34pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: blue;
+}
+
+.subTitleLabelInsert{
+    -fx-font-size: 34pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: blue;
+}
+
+.selectLanguageButtonInsert {
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 22pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #EB4034;
+}
+
+.selectcontinueButtonInsert {
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 22pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #1E90FF;
+}
+
+//selectLanguage
+.mainTitleLabel{
+    -fx-font-size: 40pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: blue;
+}
+
+.selectLanguageButton {
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 30pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #EB4034;
+}
+
+.selectcontinueButton {
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 30pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #1E90FF;
+}
+
+//global
+
+.mainMessage{
+    -fx-font-size: 22pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: blue;
+}
+
+.positiveMessage{
+    -fx-font-size: 22pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: green;
+}
+
+.negativeMessage{
+    -fx-font-size: 22pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: red;
+}
+
+.textfield {
+    -fx-font-size: 22pt;
+    -fx-font-family: "Sans Serif";
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-prompt-text-fill: gray;
+    -fx-alignment: center;
+}
+
+.yesButton {
+    -fx-background-radius: 30;
+        -fx-background-insets: 5,5,5,5;
+        -fx-font-size: 30pt;
+        -fx-text-fill: #DEE1E8;
+        -fx-font-family: "Sans Serif";
+        -fx-background-color: green;
+}
+
+.noButton {
+    -fx-background-radius: 30;
+        -fx-background-insets: 5,5,5,5;
+        -fx-font-size: 30pt;
+        -fx-text-fill: #DEE1E8;
+        -fx-font-family: "Sans Serif";
+        -fx-background-color: red;
+}
+
+.continueButton {
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 18pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #1E90FF;
+}
+
+//select language
+
+.languageButton {
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 18pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #EB4034;
+}
+
+.SelectedValue {
+    -fx-border-color: green;
+    -fx-border-radius: 30;
+    -fx-border-inserts: 5,5,5,5;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+    -fx-padding: 10;
+}
+
+.choiceButton {
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 14pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #EB4034;
+}
+
+.footer{
+    -fx-background-color: #2F3630;
+}
+
+//questionnaire
+.questionState{
+    -fx-font-size: 22pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: blue;
+}
+
+.questionnaire_question{
+    -fx-font-size: 30pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: blue;
+}
+
+.positiveMessageDiagnosis{
+    -fx-font-size: 30pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: green;
+}
+
+.negativeMessageDiagnosis{
+    -fx-font-size: 30pt;
+    -fx-font-family: "Sans Serif";
+    -fx-text-fill: red;
+}
+
+//confirm password
+.confpassEnterButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 12pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: #1E90FF;
+}
+
+.confpassCancelButton{
+    -fx-background-radius: 30;
+    -fx-background-insets: 5,5,5,5;
+    -fx-font-size: 12pt;
+    -fx-text-fill: #DEE1E8;
+    -fx-font-family: "Sans Serif";
+    -fx-background-color: red;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="748.0" styleClass="rootPanes" stylesheets="@../styles/application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ke.co.sema_atsm.UI.ViewControllers.HospitalSelectionControllers">
+   <children>
+      <VBox alignment="CENTER" layoutX="14.0" layoutY="8.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <StackPane prefHeight="100.0" prefWidth="161.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../imgs/Huduma-Kenya.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="150.0" prefWidth="353.0" />
+                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../imgs/hospital-icon.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </StackPane>
+                     </children>
+                  </HBox>
+               </children>
+            </StackPane>
+            <VBox alignment="CENTER_LEFT" maxWidth="601.0" prefHeight="891.0" prefWidth="601.0" spacing="20.0">
+               <children>
+                  <StackPane prefHeight="83.0" prefWidth="601.0">
+                     <children>
+                        <ProgressIndicator fx:id="progressIndicator" />
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="117.0" prefWidth="601.0">
+                     <children>
+                        <Label fx:id="masterLabel" styleClass="mainMessage" text="&lt;Title_Label&gt;" />
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="675.0" prefWidth="601.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <StackPane prefHeight="119.0" prefWidth="601.0">
+                                 <children>
+                                    <ComboBox fx:id="officeCombox" onAction="#onComboboxSelect" prefHeight="25.0" prefWidth="389.0" />
+                                 </children>
+                              </StackPane>
+                              <StackPane prefHeight="310.0" prefWidth="601.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <VBox layoutX="-5.0" prefHeight="310.0" prefWidth="446.0">
+                                             <children>
+                                                <StackPane prefHeight="76.0" prefWidth="446.0">
+                                                   <children>
+                                                      <Label fx:id="hospitalNameLabel" styleClass="mainMessage" text="&lt;Hospital Name&gt;" />
+                                                   </children>
+                                                </StackPane>
+                                                <StackPane prefHeight="74.0" prefWidth="446.0">
+                                                   <children>
+                                                      <Label fx:id="locationNameLabel" styleClass="mainMessage" text="&lt;Location_Name&gt;" />
+                                                   </children>
+                                                </StackPane>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </StackPane>
+                              <StackPane prefHeight="104.0" prefWidth="601.0" />
+                              <VBox prefHeight="82.0" prefWidth="601.0">
+                                 <children>
+                                    <HBox prefHeight="63.0" prefWidth="601.0" />
+                                    <HBox prefHeight="71.0" prefWidth="601.0">
+                                       <children>
+                                          <StackPane prefHeight="60.0" prefWidth="56.0">
+                                             <children>
+                                                <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelButtonAction" styleClass="noButton" text="X" />
+                                             </children>
+                                          </StackPane>
+                                          <StackPane prefHeight="45.0" prefWidth="349.0" />
+                                          <StackPane prefHeight="45.0" prefWidth="43.0" />
+                                          <StackPane prefHeight="51.0" prefWidth="306.0">
+                                             <children>
+                                                <Button fx:id="generateReceiptButton" mnemonicParsing="false" onAction="#generateReceiptButtonAction" styleClass="continueButton" text="GENERATE RECEIPT" />
+                                             </children>
+                                          </StackPane>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </StackPane>
+               </children></VBox>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+</AnchorPane>
